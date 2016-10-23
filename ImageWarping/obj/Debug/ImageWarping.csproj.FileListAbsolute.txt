@@ -1,0 +1,9 @@
+F:\学习资料\计算机图形学\ImageWarping\ImageWarping\bin\Debug\ImageWarping.exe.config
+F:\学习资料\计算机图形学\ImageWarping\ImageWarping\bin\Debug\ImageWarping.exe
+F:\学习资料\计算机图形学\ImageWarping\ImageWarping\bin\Debug\ImageWarping.pdb
+F:\学习资料\计算机图形学\ImageWarping\ImageWarping\obj\Debug\ImageWarping.csprojResolveAssemblyReference.cache
+F:\学习资料\计算机图形学\ImageWarping\ImageWarping\obj\Debug\ImageWarping.ImageWarping.resources
+F:\学习资料\计算机图形学\ImageWarping\ImageWarping\obj\Debug\ImageWarping.Properties.Resources.resources
+F:\学习资料\计算机图形学\ImageWarping\ImageWarping\obj\Debug\ImageWarping.csproj.GenerateResource.Cache
+F:\学习资料\计算机图形学\ImageWarping\ImageWarping\obj\Debug\ImageWarping.exe
+F:\学习资料\计算机图形学\ImageWarping\ImageWarping\obj\Debug\ImageWarping.pdb
