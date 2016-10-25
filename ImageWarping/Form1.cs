@@ -100,6 +100,14 @@ namespace ImageWarping
             IDWButton.Enabled = false;
             if (startPoints.Count == endPoints.Count && startPoints.Count > 0 && endPoints.Count > 0)
             {
+                startPoints.Add(new Point(0, 0));
+                startPoints.Add(new Point(bitmap.Width, 0));
+                startPoints.Add(new Point(0, bitmap.Height));
+                startPoints.Add(new Point(bitmap.Width, bitmap.Height));
+                endPoints.Add(new Point(0, 0));
+                endPoints.Add(new Point(bitmap.Width, 0));
+                endPoints.Add(new Point(0, bitmap.Height));
+                endPoints.Add(new Point(bitmap.Width, bitmap.Height));
                 IDW idw = new IDW(startPoints, endPoints);
                 Bitmap newBitmap = new Bitmap(bitmap.Width, bitmap.Height);
                 BitmapData bitmapData = bitmap.LockBits(new Rectangle(0, 0, bitmap.Width, bitmap.Height), ImageLockMode.ReadWrite, PixelFormat.Format24bppRgb);
@@ -148,6 +156,14 @@ namespace ImageWarping
             RBFButton.Enabled = false;
             if (startPoints.Count == endPoints.Count && startPoints.Count > 1 && endPoints.Count > 1)
             {
+                startPoints.Add(new Point(0, 0));
+                startPoints.Add(new Point(bitmap.Width, 0));
+                startPoints.Add(new Point(0, bitmap.Height));
+                startPoints.Add(new Point(bitmap.Width, bitmap.Height));
+                endPoints.Add(new Point(0, 0));
+                endPoints.Add(new Point(bitmap.Width, 0));
+                endPoints.Add(new Point(0, bitmap.Height));
+                endPoints.Add(new Point(bitmap.Width, bitmap.Height));
                 RBF rbf = new RBF(startPoints, endPoints);
                 Bitmap newBitmap = new Bitmap(bitmap.Width, bitmap.Height);
                 BitmapData bitmapData = bitmap.LockBits(new Rectangle(0, 0, bitmap.Width, bitmap.Height), ImageLockMode.ReadWrite, PixelFormat.Format24bppRgb);
